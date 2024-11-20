@@ -1,0 +1,92 @@
+.header {
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+
+    @media only screen and (max-width: 1300px) {
+        display: block;
+        height: 250px;
+    }
+}
+
+.positivious {
+    margin-top: 50px;
+    padding-right: 5%;
+    width: fit-content;
+}
+
+.space {
+    margin: 0;
+    padding: 1px;
+    width: 900px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 800px) {
+        margin: 0px;
+        margin-top: 20px;
+        width: 400px;
+        height: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+
+    }
+
+    @media only screen and (min-width: 801px) and (max-width: 1300px) {
+        height: 250px;
+        margin: 0px;
+        margin-top: 20px;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+    }
+
+}
+
+.menu {
+    margin: 0px;
+    margin-top: -16px;
+    height: 20px;
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.menu h4 {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.menu h4:hover {
+    background-color: #191a23;
+    color: #f3f3f3;
+}
+
+.quoteButton {
+    margin-top: 15px;
+    height: fit-content;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+    @media only screen and (max-width: 800px) {
+        margin-top: 10px;
+        padding: 5px;
+    }
+}
+
+.quoteButton:hover {
+    background-color: #191a23;
+    color: #f3f3f3;
+}
+
+.quoteText {
+    text-wrap: nowrap;
+    margin: 10px;
+}

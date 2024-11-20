@@ -1,0 +1,178 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > div {
+    padding: 1px;
+    margin-left: 6%;
+    margin-top: 100px;
+    width: 88%;
+}
+
+h1 {
+    font-size: 70px;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 60px;
+    }
+}
+
+h2 {
+    font-size: 50px;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 45px;
+    }
+}
+
+h3 {
+    font-size: 35px;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 30px;
+    }
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: normal;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 20px;
+    }
+}
+
+p {
+    font-size: 20px;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 15px;
+    }
+}
+
+label {
+    font-size: 20px;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 15px 30px 15px 30px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    background-color: #191a23;
+}
+
+.button:hover {
+    background-color: #b9ff66;
+}
+
+.button:hover h4 {
+    color: #191a23;
+}
+
+.button:hover p {
+    color: #191a23;
+}
+
+.buttonText {
+    padding: 0px;
+    margin: 0px;
+    color: #f3f3f3;
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.description {
+    margin-bottom: 30px;
+    padding: 1px;
+    min-width: 500px;
+    width: 100%;
+    max-width: 800px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+    @media only screen and (max-width: 1000px) {
+        display: contents;
+    }
+    
+}
+
+.title {
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:fit-content;
+    background-color: #b9ff66;
+    border-radius: 10px;
+}
+
+.titleText {
+    text-wrap:nowrap;
+    margin-top: 0px;
+}
+
+.descText {
+    margin-left: 20px;
+    text-wrap:wrap;
+
+    @media only screen and (max-width: 1000px) {
+        margin-left: 0px;
+        width: 600px;
+        text-align: justify;
+    }
+}
+
+.arrow {
+    margin: 0px;
+    padding: 0px;
+    margin-top: -5px;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #191a23;
+    position: relative;
+}
+
+.arrow > div {
+    position: absolute;
+}
+
+.arrowHead {
+    height: 10px;
+    width: 10px;
+    border-top: 4px solid #b9ff66;
+    border-right: 4px solid #b9ff66;
+    top: 10px;
+    right: 10px;
+}
+
+.arrowLeg {
+    height: 20px;
+    width: 20px;
+    border-top: 4px solid #b9ff66;
+    transform: rotate(-45deg);
+    top: 16px;
+    right: 4px;
+}
+
+.arrowWhite {
+    background-color: #f3f3f3;
+}
+
+.arrowHeadBlack {
+    border-top-color: #191a23;
+    border-right-color: #191a23;
+}
+
+.arrowLegBlack {
+    border-top-color: #191a23 ;
+}

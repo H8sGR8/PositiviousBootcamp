@@ -1,0 +1,67 @@
+.getProposal {
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    display: flex;
+
+    @media only screen and (max-width: 800px) {
+        height: 300px;
+    }
+
+    @media only screen and (min-width: 801px) {
+        height: 350px;
+    }
+
+    @media only screen and (min-width: 901px) {
+        height: 480px;
+    }
+
+    @media only screen and (min-width: 1051px) {
+        height: 400px;
+    }
+
+    @media only screen and (min-width: 1185px) {
+        height: 350px;
+    }
+}
+
+
+.proposalText {
+    width: 50%;
+    height: 100%;
+
+    @media only screen and (max-width: 900px) {
+        width: 100%;
+    }
+}
+
+.proposalText div {
+    margin-left: 10%;
+}
+
+.propTitle {
+    width: fit-content;
+    height: fit-content;
+}
+
+.propDescription {
+    width: 70%;
+    height: fit-content;
+
+    @media only screen and (max-width: 901px) {
+        text-align: justify;
+    }
+}
+
+.proposalImage {
+    width: auto;
+    height: 110%;
+    margin-top: -20px;
+    margin-left: 15%;
+    align-items: center;
+    align-content: center;
+    display: block;
+
+    @media only screen and (max-width: 900px) {
+        display: none;
+    }   
+}

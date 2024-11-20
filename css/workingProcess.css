@@ -1,0 +1,67 @@
+.workingProcess {
+    height: 1500px;
+}
+
+.procBox {
+    margin-bottom: 20px;
+    width: calc(100% - 2px);
+    height: calc((100% - 80px - 20px * 5)/6 - 10px);
+    border: 2px solid #191a23;
+    border-bottom: 8px solid #191a23;
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+}
+
+
+.procNumber {
+    margin-left: 5%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.procTitle {
+    padding: 0;
+    margin-left: 2%;
+    width: fit-content;
+    height: fit-content;
+
+    @media only screen and (max-width: 900px) {
+        max-width: 300px;
+    }
+
+    @media only screen and (min-width: 901px) {
+        max-width: 500px;
+    }
+
+    @media only screen and (min-width: 1100px) {
+        max-width: fit-content;
+    }
+}
+
+.plusButton {
+    margin-left: auto;
+    margin-right: 5%;
+    width: 60px;
+    height: 60px;
+    background-color: #f3f3f3;
+    border: 2px solid #191a23;
+    border-radius: 100px;
+}
+
+.plusButton:hover {
+    background-color: #b9ff66;
+}
+
+.plusButton:hover h1 {
+    color: #f3f3f3;
+}
+
+.plusSign {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-size: 70px;
+}

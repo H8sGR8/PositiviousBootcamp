@@ -1,0 +1,37 @@
+.apps {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-wrap: normal;
+
+    @media only screen and (max-width: 700px) {
+        height: 300px;
+    }
+
+    @media only screen and (min-width: 701px) {
+        height: 200px;
+    }
+
+    @media only screen and (min-width: 1382px) {
+        height: 100px;
+    }
+}
+
+.app {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    align-content: center;
+}
+
+.app:hover img {
+    filter: invert(1);
+}
+
+.app img {
+    width: 200px;
+    border-radius: 10px;
+}

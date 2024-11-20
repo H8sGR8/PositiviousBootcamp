@@ -1,0 +1,105 @@
+.services {
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.servBox {
+    margin-bottom: 40px;
+    width: calc(48% - 4px);
+    min-width: 515px;
+    max-width: 700px;
+    height: 300px;
+    border: 2px solid #191a23;
+    border-bottom: 8px solid #191a23;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+    @media only screen and (max-width: 1300px) {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.servBoxGray {
+    background-color: #f3f3f3;
+}
+
+.servBoxGreen {
+    background-color: #b9ff66;
+}
+
+.servBoxBlack {
+    background-color: #191a23;
+}
+
+.servBox > div {
+    margin-top: 5%;
+    height: 80%;
+}
+
+.servText {
+    padding: 1px;
+    width: 60%;
+    margin-left: 7%;
+    position: relative;
+}
+
+.servOption {
+    padding: 1px;
+    width: 70%;
+    height: fit-content;
+    position: absolute;
+}
+
+.option {
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.optionGreen {
+    background-color: #b9ff66;
+}
+
+.optionGray {
+    background-color: #f3f3f3;
+}
+
+.servLearn {
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+}
+
+.servLearn h4 {
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+
+.servLearn:hover h4 {
+    text-decoration-line: underline;
+}
+
+.grayLearn {
+    color: #f3f3f3;
+}
+
+.grayLearn h4:hover {
+    text-decoration-color: #f3f3f3;
+}
+
+.servImage {
+    align-items: center;
+    align-content: center;
+    margin-right: 10%;
+}
