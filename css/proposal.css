@@ -12,14 +12,10 @@
     }
 
     @media only screen and (min-width: 901px) {
-        height: 480px;
+        height: 450px;
     }
 
-    @media only screen and (min-width: 1051px) {
-        height: 400px;
-    }
-
-    @media only screen and (min-width: 1185px) {
+    @media only screen and (min-width: 1145px) {
         height: 350px;
     }
 }
@@ -28,6 +24,7 @@
 .proposalText {
     width: 50%;
     height: 100%;
+    position: relative;
 
     @media only screen and (max-width: 900px) {
         width: 100%;
@@ -41,15 +38,33 @@
 .propTitle {
     width: fit-content;
     height: fit-content;
+    position: absolute;
+    top: 0px;
 }
 
 .propDescription {
-    width: 70%;
+    width: 100%;
     height: fit-content;
+    position: absolute;
 
-    @media only screen and (max-width: 901px) {
+    @media only screen and (max-width: 900px) {
+        width: 80%;
         text-align: justify;
+        top: 80px
     }
+
+    @media only screen and (min-width: 901px) {
+        top: 120px
+    }
+
+    @media only screen and (min-width: 1145px) {
+        top: 80px
+    }
+}
+
+.proposalButton {
+    position: absolute;
+    bottom: 30px;
 }
 
 .proposalImage {

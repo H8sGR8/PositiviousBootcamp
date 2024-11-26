@@ -9,16 +9,17 @@
     margin-bottom: 40px;
     width: calc(48% - 4px);
     min-width: 515px;
-    max-width: 700px;
+    max-width: calc(48% - 4px);
     height: 300px;
     border: 2px solid #191a23;
     border-bottom: 8px solid #191a23;
     border-radius: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     
     @media only screen and (max-width: 1300px) {
         width: 100%;
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -77,7 +78,7 @@
     height: fit-content;
     display: flex;
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
 }
 
 .servLearn h4 {

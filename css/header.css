@@ -18,7 +18,7 @@
 .space {
     margin: 0;
     padding: 1px;
-    width: 900px;
+    width: fit-content;
     height: 200px;
     margin-top: 20px;
     margin-left: auto;
@@ -28,7 +28,7 @@
     @media only screen and (max-width: 800px) {
         margin: 0px;
         margin-top: 20px;
-        width: 400px;
+        width: 450px;
         height: 200px;
         margin-right: auto;
         margin-left: auto;
@@ -40,7 +40,7 @@
         height: 250px;
         margin: 0px;
         margin-top: 20px;
-        width: 500px;
+        width: 520px;
         margin-right: auto;
         margin-left: auto;
         flex-wrap: wrap;
@@ -69,6 +69,7 @@
 
 .quoteButton {
     margin-top: 15px;
+    margin-left: 10px;
     height: fit-content;
     padding: 10px;
     border: 2px solid black;
