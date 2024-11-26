@@ -19,13 +19,11 @@
 
     @media only screen and (min-width: 1382px) {
         height: 100px;
-        width: 100%;
+        width: 88%;
     }
 }
 
 .app {
-    margin-left: auto;
-    margin-right: auto;
     height: 100px;
     width: 200px;
     align-items: center;
